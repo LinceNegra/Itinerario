@@ -2104,9 +2104,34 @@ function mostrarPontosAtencao(
 
                     <div class="ponto-forte-titulo">
 
-                        <span class="ponto-forte-icone">
-                            ↗
-                        </span>
+                        <span class="ponto-forte-icone ponto-melhorar-icone">
+
+                     <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+    >
+
+                    <path
+                            d="M6 18L18 6"
+                            stroke="white"
+                            stroke-width="2.4"
+                            stroke-linecap="round"
+                        />
+
+                    <path
+                            d="M9 6H18V15"
+                            stroke="white"
+                            stroke-width="2.4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+
+    </svg>
+
+</span>
 
                         <span>
                             ${nome}

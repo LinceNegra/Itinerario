@@ -2310,3 +2310,30 @@ body {
     }
 
 }
+
+.ponto-melhorar-icone {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+}
+
+
+.ponto-melhorar-icone svg {
+
+    display:
+        block;
+
+    width:
+        17px;
+
+    height:
+        17px;
+
+}
