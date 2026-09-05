@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Seu Perfil de Hábitos
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js"
+    ></script>
+
+</head>
+
+
+<body>
+
+    <main class="container">
+
+
+        <!-- =====================================
+             TELA INICIAL
+        ====================================== -->
+
+        <section
+            id="telaInicial"
+            class="tela ativa"
+        >
+
+            <div class="inicio-hero">
+
+
+                <div class="inicio-conteudo">
+
+
+                    <div class="marca">
+
+                        <span class="marca-ponto"></span>
+
+                        <span>
+                            SEU PERFIL DE HÁBITOS
+                        </span>
+
+                    </div>
+
+
+                    <h1>
+
+                        Cuide da sua rotina.<br>
+
+                        <span>
+                            Entenda seus hábitos.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="inicio-texto">
+
+                        Responda algumas perguntas sobre o seu dia a dia
+                        e descubra como estão seus hábitos.
+                        No final, você recebe um resultado personalizado
+                        e sugestões para melhorar sua rotina.
+
+                    </p>
+
+
+                    <button
+                        id="btnIniciar"
+                        class="btn iniciar-btn"
+                    >
+
+                        <span>
+                            INICIAR QUESTIONÁRIO
+                        </span>
+
+                        <!-- Seta desenhada com CSS -->
+                        <span class="seta">
+
+                            <span class="seta-linha"></span>
+
+                            <span class="seta-ponta"></span>
+
+                        </span>
+
+                    </button>
+
+
+                    <p class="inicio-observacao">
+
+                        Leva apenas alguns minutos.
+
+                    </p>
+
+
+                </div>
+
+
+                <div class="inicio-visual">
+
+
+                    <div class="imagem-moldura">
+
+                        <img
+                            src="hero_saude.png"
+                            alt="Alimentação saudável e atividade física"
+                        >
+
+                    </div>
+
+
+                    <div class="mini-card mini-card-1">
+
+                        <span class="mini-icone">
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Hábitos
+                            </strong>
+
+                            <small>
+                                avaliados
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-card mini-card-2">
+
+                        <span class="mini-icone">
+                            +
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Dicas
+                            </strong>
+
+                            <small>
+                                personalizadas
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             QUESTIONÁRIO
+        ====================================== -->
+
+        <section
+            id="telaQuestionario"
+            class="tela"
+        >
+
+            <div class="card quiz-card">
+
+
+                <div class="quiz-topo">
+
+                    <span id="contador">
+                        Pergunta 1 de 15
+                    </span>
+
+                    <span id="categoriaAtual">
+                        Alimentação
+                    </span>
+
+                </div>
+
+
+                <div class="barra-progresso">
+
+                    <div id="progresso"></div>
+
+                </div>
+
+
+                <h2 id="pergunta"></h2>
+
+
+                <div
+                    id="alternativas"
+                    class="alternativas"
+                ></div>
+
+
+                <div class="acoes">
+
+                    <button
+                        id="btnVoltar"
+                        class="btn secundario"
+                    >
+
+                        Voltar
+
+                    </button>
+
+
+                    <button
+                        id="btnProxima"
+                        class="btn principal"
+                        disabled
+                    >
+
+                        Próxima
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             RESULTADO
+        ====================================== -->
+
+        <section
+            id="telaResultado"
+            class="tela"
+        >
+
+            <div class="card resultado-card">
+
+
+                <span class="ods">
+
+                    ODS 3 • SAÚDE E BEM-ESTAR
+
+                </span>
+
+
+                <p class="pequeno">
+
+                    SEU RESULTADO
+
+                </p>
+
+
+                <h1 id="tituloResultado"></h1>
+
+
+                <p id="textoResultado"></p>
+
+
+                <div class="pontuacao">
+
+                    <span>
+                        Pontuação geral
+                    </span>
+
+                    <strong id="pontuacaoGeral">
+                        0/45
+                    </strong>
+
+                </div>
+
+
+
+                <!-- =================================
+                     GRÁFICO RADAR
+                ================================== -->
+
+                <div class="grafico-container">
+
+                    <h2 class="titulo-grafico">
+
+                        Seu perfil de hábitos
+
+                    </h2>
+
+
+                    <canvas
+                        id="graficoHabitos"
+                    ></canvas>
+
+                </div>
+
+
+
+                <!-- =================================
+                     PONTOS FORTES
+                ================================== -->
+
+                <div class="secao">
+
+                    <h2>
+                        Seus pontos fortes
+                    </h2>
+
+
+                    <div
+                        id="pontosFortes"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     O QUE PODE MELHORAR
+                ================================== -->
+
+                <div class="secao">
+
+                    <h2>
+                        O que pode melhorar
+                    </h2>
+
+
+                    <div
+                        id="pontosAtencao"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     DICAS
+                ================================== -->
+
+                <div class="secao">
+
+                    <h2>
+                        Dicas para sua rotina
+                    </h2>
+
+
+                    <div
+                        id="dicas"
+                    ></div>
+
+                </div>
+
+
+
+                <button
+                    id="btnReiniciar"
+                    class="btn principal"
+                >
+
+                    Fazer novamente
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
