@@ -14,10 +14,25 @@
         Seu Perfil de Hábitos
     </title>
 
+
+    <!-- Ícone da aba do navegador -->
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="icon.png"
+    >
+
+
+    <!-- CSS -->
+
     <link
         rel="stylesheet"
         href="style.css"
     >
+
+
+    <!-- Chart.js -->
 
     <script
         src="https://cdn.jsdelivr.net/npm/chart.js"
@@ -43,12 +58,20 @@
             <div class="inicio-hero">
 
 
+                <!-- CONTEÚDO -->
+
                 <div class="inicio-conteudo">
 
 
+                    <!-- MARCA -->
+
                     <div class="marca">
 
-                        <span class="marca-ponto"></span>
+                        <img
+                            src="icon.png"
+                            alt="Ícone do Seu Perfil de Hábitos"
+                            class="marca-icone"
+                        >
 
                         <span>
                             SEU PERFIL DE HÁBITOS
@@ -56,6 +79,8 @@
 
                     </div>
 
+
+                    <!-- TÍTULO -->
 
                     <h1>
 
@@ -68,6 +93,8 @@
                     </h1>
 
 
+                    <!-- TEXTO -->
+
                     <p class="inicio-texto">
 
                         Responda algumas perguntas sobre o seu dia a dia
@@ -78,6 +105,8 @@
                     </p>
 
 
+                    <!-- BOTÃO -->
+
                     <button
                         id="btnIniciar"
                         class="btn iniciar-btn"
@@ -87,12 +116,35 @@
                             INICIAR QUESTIONÁRIO
                         </span>
 
-                        <!-- Seta desenhada com CSS -->
+
+                        <!-- SETA -->
+
                         <span class="seta">
 
-                            <span class="seta-linha"></span>
+                            <svg
+                                width="18"
+                                height="18"
+                                viewBox="0 0 18 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
 
-                            <span class="seta-ponta"></span>
+                                <path
+                                    d="M3 9H15"
+                                    stroke="white"
+                                    stroke-width="1.8"
+                                    stroke-linecap="round"
+                                />
+
+                                <path
+                                    d="M10 4L15 9L10 14"
+                                    stroke="white"
+                                    stroke-width="1.8"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+
+                            </svg>
 
                         </span>
 
@@ -109,6 +161,9 @@
                 </div>
 
 
+
+                <!-- FOTO -->
+
                 <div class="inicio-visual">
 
 
@@ -122,11 +177,14 @@
                     </div>
 
 
+                    <!-- CARD HÁBITOS -->
+
                     <div class="mini-card mini-card-1">
 
                         <span class="mini-icone">
                             ✓
                         </span>
+
 
                         <div>
 
@@ -143,11 +201,14 @@
                     </div>
 
 
+                    <!-- CARD DICAS -->
+
                     <div class="mini-card mini-card-2">
 
                         <span class="mini-icone">
                             +
                         </span>
+
 
                         <div>
 
@@ -191,6 +252,7 @@
                         Pergunta 1 de 15
                     </span>
 
+
                     <span id="categoriaAtual">
                         Alimentação
                     </span>
@@ -215,6 +277,7 @@
 
 
                 <div class="acoes">
+
 
                     <button
                         id="btnVoltar"
@@ -257,14 +320,9 @@
             <div class="card resultado-card">
 
 
-                <span class="ods">
+                <!-- RESULTADO -->
 
-                    ODS 3 • SAÚDE E BEM-ESTAR
-
-                </span>
-
-
-                <p class="pequeno">
+                <p class="resultado-label">
 
                     SEU RESULTADO
 
@@ -277,11 +335,14 @@
                 <p id="textoResultado"></p>
 
 
+                <!-- PONTUAÇÃO -->
+
                 <div class="pontuacao">
 
                     <span>
-                        Pontuação geral
+                        Pontuação Geral
                     </span>
+
 
                     <strong id="pontuacaoGeral">
                         0/45
@@ -297,9 +358,10 @@
 
                 <div class="grafico-container">
 
+
                     <h2 class="titulo-grafico">
 
-                        Seu perfil de hábitos
+                        Seu Perfil de Hábitos
 
                     </h2>
 
@@ -307,6 +369,43 @@
                     <canvas
                         id="graficoHabitos"
                     ></canvas>
+
+
+                </div>
+
+
+
+                <!-- =================================
+                     MENSAGEM MOTIVACIONAL
+                ================================== -->
+
+                <div
+                    id="mensagemMotivacional"
+                    class="mensagem-motivacional"
+                    style="display: none;"
+                >
+
+                    <div class="motivacional-icone">
+                        ✓
+                    </div>
+
+
+                    <div>
+
+                        <h2>
+                            Parabéns!
+                        </h2>
+
+
+                        <p>
+                            Seu resultado mostra que você possui hábitos muito
+                            positivos e uma rotina bem equilibrada. Continue
+                            mantendo os cuidados que já fazem parte do seu dia
+                            a dia e valorizando pequenas atitudes que contribuem
+                            para sua saúde e bem-estar.
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -318,8 +417,9 @@
 
                 <div class="secao">
 
+
                     <h2>
-                        Seus pontos fortes
+                        Seus Pontos Fortes
                     </h2>
 
 
@@ -327,24 +427,27 @@
                         id="pontosFortes"
                     ></div>
 
+
                 </div>
 
 
 
                 <!-- =================================
-                     O QUE PODE MELHORAR
+                     PONTOS A MELHORAR
                 ================================== -->
 
                 <div class="secao">
 
+
                     <h2>
-                        O que pode melhorar
+                        Pontos a Melhorar
                     </h2>
 
 
                     <div
                         id="pontosAtencao"
                     ></div>
+
 
                 </div>
 
@@ -356,8 +459,9 @@
 
                 <div class="secao">
 
+
                     <h2>
-                        Dicas para sua rotina
+                        Dicas para sua Rotina
                     </h2>
 
 
@@ -365,9 +469,12 @@
                         id="dicas"
                     ></div>
 
+
                 </div>
 
 
+
+                <!-- REINICIAR -->
 
                 <button
                     id="btnReiniciar"
@@ -387,7 +494,13 @@
     </main>
 
 
-    <script src="script.js"></script>
+
+    <!-- JAVASCRIPT -->
+
+    <script
+        src="script.js"
+    ></script>
+
 
 </body>
 

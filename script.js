@@ -503,7 +503,7 @@ const perguntas = [
 
 
 // =====================================
-// DICAS
+// DICAS E REFERÊNCIAS
 // =====================================
 
 const dicasPorCategoria = {
@@ -512,95 +512,73 @@ const dicasPorCategoria = {
 
         baixa: {
 
-            nome:
-                "Caroline Bartholo",
+            texto: `
+                Suas respostas indicam que a alimentação pode ganhar mais variedade
+                e planejamento. Tente aumentar gradualmente a presença de frutas,
+                verduras, legumes e outros alimentos in natura ou minimamente processados.
+                Nos dias mais corridos, preparar algumas refeições com antecedência pode
+                facilitar escolhas melhores. Também procure diminuir a frequência dos
+                alimentos ultraprocessados.
+            `,
 
-            profissao:
-                "Nutricionista",
+            beneficio: `
+                Ter os alimentos in natura ou minimamente processados como base da
+                alimentação é uma das principais recomendações do Guia Alimentar
+                para a População Brasileira.
+            `,
 
-            fala:
-                "Priorizar alimentos naturais e fazer mudanças gradualmente pode tornar a alimentação mais saudável e sustentável.",
-
-            texto:
-                `
-                Sua alimentação pode receber mais atenção no dia a dia.
-                Comece aumentando aos poucos a presença de frutas, verduras,
-                legumes e outros alimentos naturais. Planejar as compras e
-                deixar alguns alimentos preparados pode facilitar as escolhas
-                durante a semana.
-                `,
-
-            beneficio:
-                `
-                Uma alimentação variada e equilibrada contribui para uma rotina
-                mais saudável e fornece diferentes nutrientes ao organismo.
-                `,
+            referencia:
+                "Ministério da Saúde — Guia Alimentar para a População Brasileira.",
 
             fonte:
-                "Portal Drauzio Varella."
+                "gov.br / Ministério da Saúde"
 
         },
 
 
         media: {
 
-            nome:
-                "Caroline Bartholo",
+            texto: `
+                Você já apresenta alguns hábitos positivos na alimentação, mas pode
+                ampliar a variedade das refeições. Procure alternar frutas, verduras,
+                legumes, feijões, cereais e outras opções ao longo da semana.
+                Planejar parte das refeições também ajuda a manter boas escolhas
+                quando a rotina estiver mais corrida.
+            `,
 
-            profissao:
-                "Nutricionista",
+            beneficio: `
+                A variedade favorece a presença de diferentes nutrientes e ajuda
+                a construir uma alimentação mais equilibrada.
+            `,
 
-            fala:
-                "Mudanças duradouras acontecem de forma gradativa. O objetivo é encontrar um equilíbrio que possa ser mantido.",
-
-            texto:
-                `
-                Sua alimentação já possui alguns aspectos positivos.
-                Tente aumentar gradualmente a presença de alimentos naturais,
-                variar as refeições e planejar alguns pratos da semana.
-                Deixar frutas prontas e verduras higienizadas também pode facilitar
-                escolhas melhores nos dias mais corridos.
-                `,
-
-            beneficio:
-                `
-                Uma alimentação diversificada pode ajudar a manter uma rotina
-                alimentar mais equilibrada.
-                `,
+            referencia:
+                "Ministério da Saúde — orientações do Guia Alimentar para a População Brasileira.",
 
             fonte:
-                "Portal Drauzio Varella."
+                "gov.br / Ministério da Saúde"
 
         },
 
 
         alta: {
 
-            nome:
-                "Caroline Bartholo",
+            texto: `
+                Você está indo muito bem nessa área. Continue mantendo a variedade
+                das refeições e priorizando alimentos in natura ou minimamente processados.
+                Para preservar esse hábito, o planejamento das compras e das refeições
+                pode continuar sendo um grande aliado.
+            `,
 
-            profissao:
-                "Nutricionista",
+            beneficio: `
+                Manter uma alimentação variada e baseada em alimentos menos processados
+                está alinhado às recomendações do Guia Alimentar brasileiro.
+            `,
 
-            fala:
-                "O equilíbrio e a constância são mais importantes do que buscar mudanças extremas na alimentação.",
-
-            texto:
-                `
-                Sua alimentação apresenta bons hábitos.
-                Continue priorizando alimentos naturais ou minimamente processados
-                e mantendo variedade nas refeições. O planejamento das compras e
-                refeições também pode ajudar a preservar esse padrão.
-                `,
-
-            beneficio:
-                `
-                Manter hábitos alimentares equilibrados de forma constante
-                ajuda a construir uma rotina mais sustentável.
-                `,
+            referencia:
+                "Ministério da Saúde — Guia Alimentar para a População Brasileira.",
 
             fonte:
-                "Portal Drauzio Varella."
+                "gov.br / Ministério da Saúde"
 
         }
 
@@ -611,96 +589,71 @@ const dicasPorCategoria = {
 
         baixa: {
 
-            nome:
-                "Bruno Modesto",
+            texto: `
+                Aqui existe uma boa oportunidade para colocar mais movimento no seu dia.
+                Comece com metas realistas, como pequenas caminhadas ou pausas para
+                se movimentar durante períodos prolongados sentado(a). Depois, conforme
+                esse hábito ficar mais natural, você pode aumentar gradualmente a frequência
+                e a duração das atividades.
+            `,
 
-            profissao:
-                "Educador físico",
+            beneficio: `
+                A Organização Mundial da Saúde destaca que diferentes tipos e durações
+                de movimento podem contribuir para a saúde e o bem-estar, além de reforçar
+                a importância de reduzir o comportamento sedentário.
+            `,
 
-            fala:
-                "Começar devagar e estabelecer pequenas metas pode facilitar a criação de uma rotina mais ativa.",
-
-            texto:
-                `
-                Seu nível de atividade física pode ser aumentado gradualmente.
-                Escolha uma atividade que seja agradável para você e estabeleça
-                uma meta pequena para começar. Pode ser uma caminhada, bicicleta,
-                dança ou exercício em casa. Durante o dia, aproveite também
-                oportunidades para caminhar e evitar longos períodos parado.
-                `,
-
-            beneficio:
-                `
-                A atividade física regular está associada a benefícios para
-                disposição, humor e saúde geral.
-                `,
+            referencia:
+                "Dra. Fiona Bull — Organização Mundial da Saúde (OMS).",
 
             fonte:
-                "Portal Drauzio Varella."
+                "World Health Organization — Physical activity and sedentary behaviour."
 
         },
 
 
         media: {
 
-            nome:
-                "Bruno Modesto",
+            texto: `
+                Você já inclui algum movimento na sua rotina. O próximo passo pode ser
+                tornar essa prática mais consistente. Reserve horários que realmente
+                funcionem para você e continue aproveitando oportunidades do cotidiano
+                para caminhar, subir escadas ou fazer pequenas pausas.
+            `,
 
-            profissao:
-                "Educador físico",
+            beneficio: `
+                A OMS reforça que todo movimento conta e que reduzir o tempo sedentário
+                também faz parte de uma rotina mais ativa.
+            `,
 
-            fala:
-                "Quando não for possível fazer uma atividade longa, uma versão menor ainda pode ajudar a manter a constância.",
-
-            texto:
-                `
-                Você já apresenta alguma prática de atividade física, mas pode
-                buscar mais regularidade. Escolha dias e horários que funcionem
-                para sua rotina. Caso não consiga cumprir uma atividade longa,
-                faça uma versão mais curta em vez de abandonar completamente
-                o hábito.
-                `,
-
-            beneficio:
-                `
-                A constância pode facilitar a incorporação da atividade física
-                como parte natural da rotina.
-                `,
+            referencia:
+                "Dra. Fiona Bull — Organização Mundial da Saúde (OMS).",
 
             fonte:
-                "Portal Drauzio Varella."
+                "World Health Organization — Physical activity and sedentary behaviour."
 
         },
 
 
         alta: {
 
-            nome:
-                "Bruno Modesto",
+            texto: `
+                Você está indo muito bem nessa área. Continue mantendo sua frequência
+                de atividade física e procure escolher atividades que sejam agradáveis
+                para você. Também vale preservar os pequenos movimentos do cotidiano,
+                principalmente nos períodos em que passa muito tempo sentado(a).
+            `,
 
-            profissao:
-                "Educador físico",
+            beneficio: `
+                Manter uma rotina ativa favorece a saúde física e o bem-estar e ajuda
+                a reduzir os efeitos de longos períodos de comportamento sedentário.
+            `,
 
-            fala:
-                "Encontrar uma atividade prazerosa pode aumentar as chances de continuar praticando.",
-
-            texto:
-                `
-                Você está indo muito bem nessa área.
-                Continue mantendo a frequência de atividade física e procure
-                variar as atividades quando sentir necessidade. Além dos exercícios
-                planejados, continue aproveitando pequenas oportunidades para
-                caminhar e se movimentar.
-                `,
-
-            beneficio:
-                `
-                Manter uma rotina ativa pode contribuir para disposição,
-                humor e bem-estar.
-                `,
+            referencia:
+                "Dra. Fiona Bull — Organização Mundial da Saúde (OMS).",
 
             fonte:
-                "Portal Drauzio Varella."
+                "World Health Organization — Physical activity and sedentary behaviour."
 
         }
 
@@ -711,96 +664,70 @@ const dicasPorCategoria = {
 
         baixa: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                Seu sono merece mais atenção. Experimente criar horários mais consistentes
+                para dormir e acordar e reserve os minutos anteriores ao sono para desacelerar.
+                Reduza o uso de telas e outros estímulos nesse período e procure deixar o
+                ambiente mais favorável ao descanso.
+            `,
 
-            profissao:
-                "Orientações de especialistas em sono",
+            beneficio: `
+                A declaração científica da American Heart Association destaca que a saúde
+                do sono envolve duração, horário, regularidade e qualidade, e está relacionada
+                à saúde cardiovascular e ao bem-estar mental.
+            `,
 
-            fala:
-                "Horários mais regulares e menos estímulos antes de dormir podem ajudar a preparar o corpo para o descanso.",
-
-            texto:
-                `
-                Seu sono pode ser uma das áreas que mais merece atenção.
-                Tente estabelecer horários semelhantes para dormir e acordar.
-                Próximo do horário de dormir, reduza o uso de celular e outros
-                dispositivos e prefira atividades tranquilas, como leitura ou
-                um banho morno. Também pode ajudar evitar bebidas estimulantes
-                à noite e manter o quarto escuro, silencioso e ventilado.
-                `,
-
-            beneficio:
-                `
-                O sono influencia humor, bem-estar, concentração e memória,
-                além de estar relacionado à saúde física e mental.
-                `,
+            referencia:
+                "Dra. Marie-Pierre St-Onge — Columbia University / American Heart Association.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "American Heart Association — Sleep Matters."
 
         },
 
 
         media: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                Você já possui alguns hábitos positivos relacionados ao sono, mas pode
+                ganhar mais regularidade. Tente manter horários semelhantes e criar um
+                período de desaceleração antes de dormir. Diminuir telas e excesso de
+                estímulos nesse momento pode ajudar a preservar a qualidade do descanso.
+            `,
 
-            profissao:
-                "Orientações de especialistas em sono",
+            beneficio: `
+                Uma rotina de sono mais regular está relacionada a uma melhor saúde do
+                sono e pode favorecer o bem-estar físico e mental.
+            `,
 
-            fala:
-                "Uma rotina de sono não precisa ser complicada. Pequenos cuidados já podem ajudar.",
-
-            texto:
-                `
-                Seu sono apresenta alguns aspectos positivos, mas pode ficar
-                mais regular. Tente manter horários parecidos para dormir e
-                acordar e reserve um momento antes de dormir para desacelerar.
-                Reduza o uso de telas e observe se refeições pesadas ou
-                bebidas estimulantes estão atrapalhando seu descanso.
-                `,
-
-            beneficio:
-                `
-                Uma rotina de sono mais regular pode favorecer o descanso
-                e a disposição durante o dia.
-                `,
+            referencia:
+                "Dra. Marie-Pierre St-Onge — Columbia University / American Heart Association.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "American Heart Association — Sleep Matters."
 
         },
 
 
         alta: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                Você está indo muito bem nessa área. Continue preservando os hábitos
+                que parecem funcionar para você, principalmente a regularidade dos horários
+                e um período tranquilo antes de dormir. Manter esse padrão é importante
+                mesmo quando a rotina estiver mais cheia.
+            `,
 
-            profissao:
-                "Orientações de especialistas em sono",
+            beneficio: `
+                A saúde do sono não depende apenas da quantidade de horas, mas também
+                de regularidade, horário e qualidade.
+            `,
 
-            fala:
-                "Quando uma rotina de sono já funciona bem, o objetivo é preservá-la.",
-
-            texto:
-                `
-                Seus hábitos relacionados ao sono estão em uma boa direção.
-                Continue mantendo horários relativamente regulares e uma rotina
-                tranquila antes de dormir. Preserve também um ambiente agradável
-                para o descanso e reduza estímulos próximos do horário de deitar.
-                `,
-
-            beneficio:
-                `
-                Manter bons hábitos de sono pode contribuir para bem-estar,
-                concentração, memória e disposição.
-                `,
+            referencia:
+                "Dra. Marie-Pierre St-Onge — Columbia University / American Heart Association.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "American Heart Association — Sleep Matters."
 
         }
 
@@ -811,94 +738,71 @@ const dicasPorCategoria = {
 
         baixa: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                A hidratação aparece como um ponto que pode ser fortalecido.
+                Uma estratégia simples é manter uma garrafa de água por perto e
+                distribuir o consumo ao longo do dia. Isso pode ser especialmente
+                útil em períodos de estudo, trabalho, calor ou maior atividade física.
+            `,
 
-            profissao:
-                "Orientações de especialistas em hidratação",
+            beneficio: `
+                A necessidade de água não é exatamente igual para todas as pessoas.
+                Ela pode variar conforme o nível de atividade, o clima e outras
+                características individuais.
+            `,
 
-            fala:
-                "Deixar uma garrafa por perto e usar lembretes pode facilitar a criação do hábito de beber água regularmente.",
-
-            texto:
-                `
-                Sua hidratação pode ser melhor organizada durante o dia.
-                Mantenha uma garrafa de água próxima, principalmente nos momentos
-                em que costuma esquecer de beber. Alarmes e lembretes no celular
-                também podem ajudar enquanto esse hábito está sendo incorporado.
-                `,
-
-            beneficio:
-                `
-                A água participa de funções importantes do organismo,
-                incluindo transporte de nutrientes e regulação da temperatura.
-                `,
+            referencia:
+                "Beth Czerwony, RD, LD — Cleveland Clinic.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "Cleveland Clinic — Health Benefits to Drinking More Water."
 
         },
 
 
         media: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                Você já demonstra algum cuidado com a hidratação. Para fortalecer
+                esse hábito, tente manter a água acessível e distribuí-la ao longo
+                do dia. Deixar a garrafa visível pode funcionar como um lembrete
+                simples durante as atividades.
+            `,
 
-            profissao:
-                "Orientações de especialistas em hidratação",
+            beneficio: `
+                Não existe uma quantidade única de água que sirva exatamente para
+                todas as pessoas. As necessidades podem mudar de acordo com as
+                circunstâncias e características individuais.
+            `,
 
-            fala:
-                "Uma garrafa de água visível pode funcionar como um lembrete simples ao longo do dia.",
-
-            texto:
-                `
-                Você já apresenta algum cuidado com a hidratação, mas pode
-                melhorar a regularidade. Tente distribuir o consumo de água
-                ao longo do dia. Manter uma garrafa próxima de você pode
-                facilitar bastante esse comportamento.
-                `,
-
-            beneficio:
-                `
-                A necessidade de água varia conforme características individuais,
-                atividade física, clima e outros fatores.
-                `,
+            referencia:
+                "Dr. Robert H. Shmerling — Harvard Health Publishing.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "Harvard Health — The '8 Glasses per Day' Rule."
 
         },
 
 
         alta: {
 
-            nome:
-                "Portal Drauzio Varella",
+            texto: `
+                Você está indo muito bem nessa área. Continue distribuindo a ingestão
+                de água ao longo do dia e mantendo esse cuidado acessível.
+                Em dias quentes ou períodos de maior atividade física, preste atenção
+                às mudanças nas necessidades do seu organismo.
+            `,
 
-            profissao:
-                "Orientações de especialistas em hidratação",
+            beneficio: `
+                A hidratação adequada é importante para o funcionamento do organismo,
+                e a quantidade necessária pode variar de pessoa para pessoa.
+            `,
 
-            fala:
-                "Manter a hidratação integrada à rotina ajuda a transformar esse cuidado em um comportamento automático.",
-
-            texto:
-                `
-                Sua rotina demonstra um bom cuidado com a hidratação.
-                Continue distribuindo o consumo de água ao longo do dia e
-                mantenha esse hábito em diferentes ambientes da sua rotina.
-                Em períodos de maior atividade física ou calor, fique atento
-                às mudanças nas suas necessidades.
-                `,
-
-            beneficio:
-                `
-                Manter uma boa hidratação faz parte dos cuidados básicos
-                com o funcionamento do organismo.
-                `,
+            referencia:
+                "Beth Czerwony, RD, LD — Cleveland Clinic.",
 
             fonte:
-                "Portal Drauzio Varella — Como construir e manter hábitos saudáveis?"
+                "Cleveland Clinic — Health Benefits to Drinking More Water."
 
         }
 
@@ -909,98 +813,128 @@ const dicasPorCategoria = {
 
         baixa: {
 
-            nome:
-                "Milene Batista",
+            texto: `
+                Sua rotina pode reservar mais espaço para descanso e atividades prazerosas.
+                Escolha alguns momentos da semana para hobbies, lazer ou práticas relaxantes.
+                Técnicas simples de atenção plena ou respiração também podem ser utilizadas
+                quando você estiver enfrentando momentos de estresse.
+            `,
 
-            profissao:
-                "Psicóloga",
+            beneficio: `
+                O NCCIH, ligado ao NIH, reúne evidências de que práticas de mindfulness
+                podem ajudar a reduzir sintomas de estresse e também podem contribuir
+                para melhorar o sono.
+            `,
 
-            fala:
-                "Momentos de lazer, hobbies e estratégias de relaxamento também podem fazer parte do cuidado com a saúde mental.",
-
-            texto:
-                `
-                Sua rotina pode ganhar mais espaço para descanso, lazer e organização.
-                Comece escolhendo um pequeno período da semana para fazer algo que
-                realmente goste. Pode ser ler, ouvir música, caminhar ou praticar
-                um hobby. Para momentos de estresse, experimente estratégias como
-                respiração, meditação ou outra atividade relaxante.
-                `,
-
-            beneficio:
-                `
-                Hobbies e estratégias de relaxamento podem ajudar no gerenciamento
-                do estresse e contribuir para o bem-estar.
-                `,
+            referencia:
+                "National Center for Complementary and Integrative Health (NCCIH/NIH).",
 
             fonte:
-                "Portal Drauzio Varella — orientações da psicóloga Milene Batista."
+                "NIH / NCCIH — Stress."
 
         },
 
 
         media: {
 
-            nome:
-                "Milene Batista",
+            texto: `
+                Você já reserva algum espaço para seu bem-estar, mas pode torná-lo
+                mais constante. Tente colocar momentos de lazer e descanso na agenda
+                da semana, mesmo que sejam curtos. Também procure equilibrar períodos
+                de muita atividade com momentos de pausa e recuperação.
+            `,
 
-            profissao:
-                "Psicóloga",
+            beneficio: `
+                Estratégias de relaxamento e mindfulness apresentam evidências de
+                benefícios para o gerenciamento do estresse em diferentes contextos.
+            `,
 
-            fala:
-                "O lazer também merece espaço na rotina. Não precisa esperar sobrar tempo para cuidar do próprio bem-estar.",
-
-            texto:
-                `
-                Você já reserva algum espaço para seu bem-estar, mas pode tornar
-                esses momentos mais constantes. Coloque períodos de lazer e descanso
-                na programação semanal e escolha atividades que realmente façam
-                sentido para você.
-                `,
-
-            beneficio:
-                `
-                Uma rotina que inclui descanso e atividades prazerosas pode ajudar
-                a equilibrar responsabilidades e momentos de recuperação.
-                `,
+            referencia:
+                "National Center for Complementary and Integrative Health (NCCIH/NIH).",
 
             fonte:
-                "Portal Drauzio Varella — orientações da psicóloga Milene Batista."
+                "NIH / NCCIH — Stress."
 
         },
 
 
         alta: {
 
-            nome:
-                "Milene Batista",
+            texto: `
+                Você está indo muito bem nessa área. Continue preservando momentos
+                de lazer, descanso e atividades que fazem sentido para você.
+                Mesmo em semanas mais ocupadas, procure manter algum espaço para
+                recuperação e desconexão.
+            `,
 
-            profissao:
-                "Psicóloga",
+            beneficio: `
+                Manter estratégias de cuidado com o estresse pode favorecer uma rotina
+                mais equilibrada e apoiar o bem-estar.
+            `,
 
-            fala:
-                "Uma rotina equilibrada também precisa de espaço para recuperação, prazer e convivência.",
-
-            texto:
-                `
-                Sua rotina apresenta uma boa presença de lazer, descanso e organização.
-                Continue reservando momentos para atividades prazerosas e para recuperar
-                as energias. Mantenha também um planejamento flexível, deixando espaço
-                para imprevistos.
-                `,
-
-            beneficio:
-                `
-                Equilibrar responsabilidades, descanso e atividades prazerosas
-                pode favorecer o bem-estar.
-                `,
+            referencia:
+                "National Center for Complementary and Integrative Health (NCCIH/NIH).",
 
             fonte:
-                "Portal Drauzio Varella — orientações da psicóloga Milene Batista."
+                "NIH / NCCIH — Stress."
 
         }
 
     }
+
+};
+
+
+// =====================================
+// DICAS PRÁTICAS
+// =====================================
+
+const dicasPraticasPorCategoria = {
+
+    "Alimentação":
+        `
+        Planeje algumas refeições da semana e faça uma lista de compras antes
+        de ir ao mercado. Deixe frutas, verduras e legumes mais acessíveis e,
+        quando possível, prepare algumas opções com antecedência. Assim, fica
+        mais fácil fazer boas escolhas nos dias em que a rotina estiver corrida.
+        `,
+
+
+    "Atividade física":
+        `
+        Reserve horários específicos da semana para se movimentar. Comece por
+        atividades que sejam fáceis de manter, como caminhadas, bicicleta ou
+        exercícios de que você goste. Durante períodos longos sentado(a), faça
+        pausas para levantar, caminhar um pouco ou mudar de posição.
+        `,
+
+
+    "Sono":
+        `
+        Defina um horário aproximado para começar a desacelerar à noite e tente
+        manter horários semelhantes para dormir e acordar. Antes de dormir,
+        reduza o uso de celular e computador e prefira atividades tranquilas.
+        Procure também manter o quarto confortável, silencioso e com pouca luz.
+        `,
+
+
+    "Hidratação":
+        `
+        Mantenha uma garrafa de água por perto durante o estudo, trabalho ou
+        outras atividades e use-a como lembrete visual. Você também pode criar
+        momentos específicos para beber água, como ao acordar, durante as
+        refeições e nos intervalos das atividades. A necessidade de líquidos
+        pode variar conforme a pessoa, o clima e a atividade física.
+        `,
+
+
+    "Bem-estar e rotina":
+        `
+        Reserve alguns momentos da semana para descanso, lazer ou alguma atividade
+        que você realmente goste. Em períodos de maior estresse, faça uma pausa,
+        diminua o ritmo e experimente alguns minutos de respiração lenta ou
+        atenção plena. Começar com poucos minutos pode facilitar a criação do hábito.
+        `
 
 };
 
@@ -1015,8 +949,7 @@ const pontosFortesPorCategoria = {
         `
         Você apresenta boas escolhas relacionadas à alimentação.
         Continue priorizando alimentos naturais e variados e procure manter
-        esse padrão mesmo nos dias mais corridos. Planejar algumas refeições
-        e compras com antecedência pode ajudar ainda mais.
+        esse padrão mesmo nos dias mais corridos.
         `,
 
 
@@ -1024,8 +957,8 @@ const pontosFortesPorCategoria = {
         `
         Você está indo muito bem nessa área.
         Sua rotina já apresenta uma boa relação com atividade física e movimento.
-        Continue mantendo essa frequência e, quando possível, procure variar
-        as atividades ou aumentar gradualmente seus momentos de movimento.
+        Continue mantendo essa frequência e procure variar as atividades
+        quando possível.
         `,
 
 
@@ -1033,8 +966,7 @@ const pontosFortesPorCategoria = {
         `
         Seus hábitos relacionados ao sono estão em uma boa direção.
         Continue preservando horários relativamente regulares e uma rotina
-        tranquila antes de dormir. Manter essas práticas pode ajudar a preservar
-        a qualidade do seu descanso.
+        tranquila antes de dormir.
         `,
 
 
@@ -1042,16 +974,15 @@ const pontosFortesPorCategoria = {
         `
         Você demonstra um bom cuidado com a hidratação.
         Continue distribuindo o consumo de água ao longo do dia e mantendo
-        esse hábito acessível. Deixar uma garrafa por perto pode continuar
-        sendo uma estratégia simples.
+        esse hábito acessível na sua rotina.
         `,
 
 
     "Bem-estar e rotina":
         `
-        Você já consegue reservar espaço para cuidar do seu bem-estar e
-        organizar sua rotina. Continue valorizando momentos de descanso,
-        lazer e atividades que fazem sentido para você.
+        Você já consegue reservar espaço para cuidar do seu bem-estar.
+        Continue valorizando momentos de descanso, lazer e atividades
+        prazerosas.
         `
 
 };
@@ -1063,12 +994,10 @@ const pontosFortesPorCategoria = {
 
 let perguntaAtual = 0;
 
-
 let respostas =
     new Array(
         perguntas.length
     ).fill(null);
-
 
 let grafico = null;
 
@@ -1082,12 +1011,10 @@ const telaInicial =
         "telaInicial"
     );
 
-
 const telaQuestionario =
     document.getElementById(
         "telaQuestionario"
     );
-
 
 const telaResultado =
     document.getElementById(
@@ -1100,36 +1027,30 @@ const contador =
         "contador"
     );
 
-
 const categoriaAtual =
     document.getElementById(
         "categoriaAtual"
     );
-
 
 const progresso =
     document.getElementById(
         "progresso"
     );
 
-
 const pergunta =
     document.getElementById(
         "pergunta"
     );
-
 
 const alternativas =
     document.getElementById(
         "alternativas"
     );
 
-
 const btnVoltar =
     document.getElementById(
         "btnVoltar"
     );
-
 
 const btnProxima =
     document.getElementById(
@@ -1171,6 +1092,72 @@ document
         "click",
         reiniciar
     );
+
+
+// =====================================
+// FORMATAR TÍTULOS
+// =====================================
+
+function formatarTitulo(
+    texto
+) {
+
+    const palavrasMinusculas = [
+
+        "a",
+        "o",
+        "as",
+        "os",
+        "e",
+        "ou",
+        "de",
+        "da",
+        "do",
+        "das",
+        "dos",
+        "em",
+        "no",
+        "na",
+        "nos",
+        "nas",
+        "com",
+        "para",
+        "por"
+
+    ];
+
+
+    return texto
+        .toLowerCase()
+        .split(" ")
+        .map(
+            (
+                palavra,
+                indice
+            ) => {
+
+                if (
+                    indice > 0 &&
+                    palavrasMinusculas.includes(
+                        palavra
+                    )
+                ) {
+
+                    return palavra;
+
+                }
+
+
+                return (
+                    palavra.charAt(0).toUpperCase() +
+                    palavra.slice(1)
+                );
+
+            }
+        )
+        .join(" ");
+
+}
 
 
 // =====================================
@@ -1489,7 +1476,6 @@ function calcularDados() {
             categorias[
                 item.categoria
             ].pontos +=
-
                 item.alternativas[
                     respostaIndice
                 ].pontos;
@@ -1554,17 +1540,12 @@ function gerarResultado() {
     let texto;
 
 
-    const porcentagem =
-        (
-            dados.total /
-            dados.maximoTotal
-        )
-        *
-        100;
-
+    // =====================================
+    // CLASSIFICAÇÃO
+    // =====================================
 
     if (
-        porcentagem <= 39
+        dados.total <= 17
     ) {
 
         classificacao =
@@ -1578,7 +1559,7 @@ function gerarResultado() {
 
 
     else if (
-        porcentagem <= 69
+        dados.total <= 31
     ) {
 
         classificacao =
@@ -1591,6 +1572,20 @@ function gerarResultado() {
     }
 
 
+    else if (
+        dados.total <= 40
+    ) {
+
+        classificacao =
+            "Hábitos muito bons";
+
+
+        texto =
+            "Seu resultado mostra uma rotina com muitos hábitos positivos e consistentes. Pequenos ajustes em algumas áreas podem deixar seu cuidado com a saúde ainda mais completo.";
+
+    }
+
+
     else {
 
         classificacao =
@@ -1598,17 +1593,23 @@ function gerarResultado() {
 
 
         texto =
-            "Seu resultado mostra uma rotina com muitos hábitos positivos. Continue valorizando o que já funciona e procure pequenas formas de continuar evoluindo.";
+            "Seu resultado mostra uma rotina com hábitos muito positivos e consistentes. Continue valorizando o que já funciona e mantendo esses cuidados ao longo do tempo.";
 
     }
 
+
+    // =====================================
+    // MOSTRAR RESULTADO
+    // =====================================
 
     document
         .getElementById(
             "tituloResultado"
         )
         .textContent =
-        classificacao;
+        formatarTitulo(
+            classificacao
+        );
 
 
     document
@@ -1633,17 +1634,28 @@ function gerarResultado() {
 
 
     mostrarPontosAtencao(
-        dados.categorias
+        dados.categorias,
+        dados.total,
+        dados.maximoTotal
     );
 
 
     mostrarDicas(
-        dados.categorias
+        dados.categorias,
+        dados.total,
+        dados.maximoTotal
     );
 
 
     criarGrafico(
         dados.categorias
+    );
+
+
+    mostrarMensagemMotivacional(
+        dados.categorias,
+        dados.total,
+        dados.maximoTotal
     );
 
 
@@ -1690,11 +1702,89 @@ function mostrarPontosFortes(
         );
 
 
-    ordenadas
-        .slice(
-            0,
-            3
-        )
+    const categoriasFortes =
+        ordenadas.filter(
+            (
+                [nome, dados]
+            ) => {
+
+                const porcentagem =
+                    (
+                        dados.pontos /
+                        dados.maximo
+                    )
+                    *
+                    100;
+
+
+                return (
+                    porcentagem >= 70
+                );
+
+            }
+        );
+
+
+    // =====================================
+    // NENHUM PONTO FORTE
+    // =====================================
+
+    if (
+        categoriasFortes.length === 0
+    ) {
+
+        const mensagem =
+            document.createElement(
+                "div"
+            );
+
+
+        mensagem.className =
+            "ponto-forte-card";
+
+
+        mensagem.innerHTML = `
+
+            <div class="ponto-forte-titulo">
+
+                <span class="ponto-forte-icone">
+                    ✓
+                </span>
+
+                <span>
+                    Nenhum Ponto Forte Identificado
+                </span>
+
+            </div>
+
+
+            <p class="ponto-forte-texto">
+
+                Neste momento, nenhuma área atingiu a pontuação mínima
+                para ser considerada um ponto forte. Isso não significa
+                que você não tenha hábitos positivos, apenas que existem
+                oportunidades para fortalecer ainda mais sua rotina.
+
+            </p>
+
+        `;
+
+
+        area.appendChild(
+            mensagem
+        );
+
+
+        return;
+
+    }
+
+
+    // =====================================
+    // MOSTRAR TODOS OS PONTOS FORTES
+    // =====================================
+
+    categoriasFortes
         .forEach(
             ([nome]) => {
 
@@ -1744,11 +1834,13 @@ function mostrarPontosFortes(
 
 
 // =====================================
-// O QUE PODE MELHORAR
+// PONTOS A MELHORAR
 // =====================================
 
 function mostrarPontosAtencao(
-    categorias
+    categorias,
+    total,
+    maximoTotal
 ) {
 
     const area =
@@ -1757,8 +1849,144 @@ function mostrarPontosAtencao(
         );
 
 
+    const secao =
+        area.closest(
+            ".secao"
+        );
+
+
     area.innerHTML =
         "";
+
+
+    const porcentagemGeral =
+        (
+            total /
+            maximoTotal
+        )
+        *
+        100;
+
+
+    // =====================================
+    // 90% OU MAIS
+    // ESCONDER
+    // =====================================
+
+    if (
+        porcentagemGeral >= 90
+    ) {
+
+        secao.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    secao.style.display =
+        "block";
+
+
+    const textosMelhoria = {
+
+        "Alimentação": {
+
+            baixa:
+                `
+                Suas respostas indicam que a alimentação pode ganhar mais variedade.
+                Tente aumentar gradualmente a presença de frutas, verduras, legumes
+                e outros alimentos naturais. Planejar algumas refeições da semana
+                também pode facilitar escolhas melhores nos dias mais corridos.
+                `,
+
+            media:
+                `
+                Você já possui alguns hábitos positivos na alimentação, mas pode
+                ampliar a variedade das refeições. Tente combinar diferentes grupos
+                de alimentos ao longo da semana e planejar parte das refeições.
+                `
+
+        },
+
+
+        "Atividade física": {
+
+            baixa:
+                `
+                Aqui existe uma oportunidade de colocar mais movimento no seu dia.
+                Comece com pequenas metas, como caminhar por alguns minutos ou fazer
+                pausas para se movimentar durante períodos prolongados sentado(a).
+                `,
+
+            media:
+                `
+                Você já inclui algum movimento na sua rotina, mas pode aumentar
+                gradualmente a frequência. Escolha horários realistas para atividade
+                física e continue aproveitando pequenas oportunidades de se movimentar.
+                `
+
+        },
+
+
+        "Sono": {
+
+            baixa:
+                `
+                Seu sono merece mais atenção. Experimente criar horários mais consistentes
+                para dormir e acordar e reserve os minutos anteriores ao sono para desacelerar.
+                Reduzir telas e outros estímulos nesse período pode ajudar.
+                `,
+
+            media:
+                `
+                Você já apresenta alguns cuidados positivos com o sono, mas pode ganhar
+                mais regularidade. Tente manter horários semelhantes e criar um período
+                mais tranquilo antes de dormir.
+                `
+
+        },
+
+
+        "Hidratação": {
+
+            baixa:
+                `
+                A hidratação aparece como um ponto que pode ser fortalecido.
+                Deixe uma garrafa de água por perto e procure distribuir o consumo
+                ao longo do dia, principalmente nos momentos em que costuma esquecer.
+                `,
+
+            media:
+                `
+                Você já apresenta algum cuidado com a hidratação.
+                Para fortalecer esse hábito, tente manter a água acessível e distribuí-la
+                ao longo do dia, usando a garrafa como um lembrete visual.
+                `
+
+        },
+
+
+        "Bem-estar e rotina": {
+
+            baixa:
+                `
+                Sua rotina pode reservar mais espaço para descanso e atividades prazerosas.
+                Escolha alguns momentos da semana para hobbies, lazer ou alguma atividade
+                relaxante e procure torná-los parte da sua programação.
+                `,
+
+            media:
+                `
+                Você já reserva algum espaço para seu bem-estar, mas pode torná-lo
+                mais constante. Procure colocar momentos de lazer e descanso no
+                planejamento da semana, mesmo que sejam períodos curtos.
+                `
+
+        }
+
+    };
 
 
     const ordenadas =
@@ -1779,13 +2007,54 @@ function mostrarPontosAtencao(
         );
 
 
-    ordenadas
-        .slice(
-            0,
-            3
-        )
+    // =====================================
+    // ABAIXO DE 70%
+    // =====================================
+
+    const categoriasParaMelhorar =
+        ordenadas.filter(
+            (
+                [nome, dados]
+            ) => {
+
+                const porcentagem =
+                    (
+                        dados.pontos /
+                        dados.maximo
+                    )
+                    *
+                    100;
+
+
+                return (
+                    porcentagem < 70
+                );
+
+            }
+        );
+
+
+    if (
+        categoriasParaMelhorar.length === 0
+    ) {
+
+        secao.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    // =====================================
+    // MOSTRAR TODAS
+    // =====================================
+
+    categoriasParaMelhorar
         .forEach(
-            ([nome, dados]) => {
+            (
+                [nome, dados]
+            ) => {
 
 
                 const porcentagem =
@@ -1797,16 +2066,6 @@ function mostrarPontosAtencao(
                     100;
 
 
-                const div =
-                    document.createElement(
-                        "div"
-                    );
-
-
-                div.className =
-                    "item-resultado";
-
-
                 let mensagem;
 
 
@@ -1815,37 +2074,52 @@ function mostrarPontosAtencao(
                 ) {
 
                     mensagem =
-                        `
-                        Essa é uma das áreas que mais pode receber atenção.
-                        Comece com uma pequena mudança que seja possível colocar
-                        em prática e procure transformá-la gradualmente em parte
-                        da sua rotina.
-                        `;
+                        textosMelhoria[
+                            nome
+                        ].baixa;
 
                 }
-
 
                 else {
 
                     mensagem =
-                        `
-                        Essa área já apresenta alguns hábitos positivos,
-                        mas ainda existe espaço para evoluir. Pequenos ajustes
-                        podem ajudar você a fortalecer esse aspecto da rotina.
-                        `;
+                        textosMelhoria[
+                            nome
+                        ].media;
 
                 }
 
 
+                const div =
+                    document.createElement(
+                        "div"
+                    );
+
+
+                div.className =
+                    "ponto-forte-card ponto-melhorar";
+
+
                 div.innerHTML = `
 
-                    <strong>
-                        ${nome}
-                    </strong>
+                    <div class="ponto-forte-titulo">
 
-                    <span>
+                        <span class="ponto-forte-icone">
+                            ↗
+                        </span>
+
+                        <span>
+                            ${nome}
+                        </span>
+
+                    </div>
+
+
+                    <p class="ponto-forte-texto">
+
                         ${mensagem}
-                    </span>
+
+                    </p>
 
                 `;
 
@@ -1861,11 +2135,13 @@ function mostrarPontosAtencao(
 
 
 // =====================================
-// DICAS
+// DICAS PARA SUA ROTINA
 // =====================================
 
 function mostrarDicas(
-    categorias
+    categorias,
+    total,
+    maximoTotal
 ) {
 
     const area =
@@ -1874,9 +2150,45 @@ function mostrarDicas(
         );
 
 
+    const secao =
+        area.closest(
+            ".secao"
+        );
+
+
     area.innerHTML =
         "";
 
+
+    const porcentagemGeral =
+        (
+            total /
+            maximoTotal
+        )
+        *
+        100;
+
+
+    // =====================================
+    // 90% OU MAIS
+    // NÃO MOSTRAR DICAS
+    // =====================================
+
+    if (
+        porcentagemGeral >= 90
+    ) {
+
+        secao.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    // =====================================
+    // ORDENAR CATEGORIAS
+    // =====================================
 
     const ordenadas =
         Object.entries(
@@ -1896,13 +2208,62 @@ function mostrarDicas(
         );
 
 
-    ordenadas
-        .slice(
-            0,
-            3
-        )
+    // =====================================
+    // CATEGORIAS ABAIXO DE 70%
+    // =====================================
+
+    const categoriasParaDica =
+        ordenadas.filter(
+            (
+                [nome, dados]
+            ) => {
+
+                const porcentagem =
+                    (
+                        dados.pontos /
+                        dados.maximo
+                    )
+                    *
+                    100;
+
+
+                return (
+                    porcentagem < 70
+                );
+
+            }
+        );
+
+
+    // =====================================
+    // NENHUMA DICA
+    // =====================================
+
+    if (
+        categoriasParaDica.length === 0
+    ) {
+
+        secao.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    secao.style.display =
+        "block";
+
+
+    // =====================================
+    // MOSTRAR TODAS AS DICAS
+    // =====================================
+
+    categoriasParaDica
         .forEach(
-            ([nome, dados]) => {
+            (
+                [nome, dados]
+            ) => {
 
 
                 const porcentagem =
@@ -1926,7 +2287,6 @@ function mostrarDicas(
 
                 }
 
-
                 else if (
                     porcentagem < 70
                 ) {
@@ -1936,7 +2296,6 @@ function mostrarDicas(
 
                 }
 
-
                 else {
 
                     nivel =
@@ -1945,6 +2304,10 @@ function mostrarDicas(
                 }
 
 
+                // =====================================
+                // PEGAR A REFERÊNCIA CORRETA
+                // =====================================
+
                 const informacao =
                     dicasPorCategoria[
                         nome
@@ -1952,6 +2315,10 @@ function mostrarDicas(
                         nivel
                     ];
 
+
+                // =====================================
+                // CRIAR CARD
+                // =====================================
 
                 const div =
                     document.createElement(
@@ -1974,7 +2341,7 @@ function mostrarDicas(
 
                     <p class="dica-texto">
 
-                        ${informacao.texto}
+                        ${dicasPraticasPorCategoria[nome]}
 
                     </p>
 
@@ -1985,8 +2352,11 @@ function mostrarDicas(
                             Por que isso importa?
                         </strong>
 
+
                         <p>
+
                             ${informacao.beneficio}
+
                         </p>
 
                     </div>
@@ -1996,33 +2366,19 @@ function mostrarDicas(
 
                         <div class="especialista-titulo">
 
-                            Referência da pesquisa
+                            Referência profissional
 
                         </div>
 
 
-                        <p class="especialista-fala">
+                        <div class="especialista-fala">
 
-                            "${informacao.fala}"
+                            ${informacao.referencia}
 
-                        </p>
+                        </div>
 
 
                         <div class="especialista-nome">
-
-                            ${informacao.nome}
-
-                        </div>
-
-
-                        <div class="especialista-profissao">
-
-                            ${informacao.profissao}
-
-                        </div>
-
-
-                        <div class="especialista-profissao">
 
                             ${informacao.fonte}
 
@@ -2039,6 +2395,75 @@ function mostrarDicas(
 
             }
         );
+
+}
+
+
+// =====================================
+// MENSAGEM MOTIVACIONAL
+// =====================================
+
+function mostrarMensagemMotivacional(
+    categorias,
+    total,
+    maximoTotal
+) {
+
+    const mensagem =
+        document.getElementById(
+            "mensagemMotivacional"
+        );
+
+
+    const porcentagemGeral =
+        (
+            total /
+            maximoTotal
+        )
+        *
+        100;
+
+
+    const existeMelhoria =
+        Object.values(
+            categorias
+        )
+        .some(
+            dados => {
+
+                const porcentagem =
+                    (
+                        dados.pontos /
+                        dados.maximo
+                    )
+                    *
+                    100;
+
+
+                return (
+                    porcentagem < 70
+                );
+
+            }
+        );
+
+
+    if (
+        porcentagemGeral >= 90 ||
+        !existeMelhoria
+    ) {
+
+        mensagem.style.display =
+            "flex";
+
+    }
+
+    else {
+
+        mensagem.style.display =
+            "none";
+
+    }
 
 }
 
@@ -2089,6 +2514,7 @@ function criarGrafico(
                     )
 
                     *
+
                     100
 
                 )
@@ -2233,6 +2659,28 @@ function reiniciar() {
     respostas.fill(
         null
     );
+
+
+    document
+        .querySelectorAll(
+            ".secao"
+        )
+        .forEach(
+            secao => {
+
+                secao.style.display =
+                    "block";
+
+            }
+        );
+
+
+    document
+        .getElementById(
+            "mensagemMotivacional"
+        )
+        .style.display =
+        "none";
 
 
     mostrarTela(

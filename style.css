@@ -21,6 +21,12 @@
 
     --branco: #ffffff;
 
+    --vermelho: #c0392b;
+
+    --vermelho-claro: #fff7f6;
+
+    --vermelho-borda: #f0d7d3;
+
 }
 
 
@@ -77,7 +83,7 @@ body {
 
 
 /* =====================================
-   TELA INICIAL - DESKTOP
+   TELA INICIAL
 ===================================== */
 
 .inicio-hero {
@@ -141,7 +147,7 @@ body {
 
 
 /* =====================================
-   CONTEÚDO DA TELA INICIAL
+   CONTEÚDO
 ===================================== */
 
 .inicio-conteudo {
@@ -167,10 +173,10 @@ body {
         center;
 
     gap:
-        10px;
+        9px;
 
     padding:
-        9px 13px;
+        7px 12px 7px 8px;
 
     margin-bottom:
         22px;
@@ -182,7 +188,7 @@ body {
         999px;
 
     background:
-        rgba(255,255,255,0.72);
+        rgba(255,255,255,0.82);
 
     color:
         var(--verde);
@@ -199,19 +205,22 @@ body {
 }
 
 
-.marca-ponto {
+.marca-icone {
 
     width:
-        8px;
+        30px;
 
     height:
-        8px;
+        30px;
+
+    object-fit:
+        cover;
 
     border-radius:
         50%;
 
-    background:
-        var(--verde);
+    display:
+        block;
 
 }
 
@@ -389,7 +398,7 @@ body {
 
 
 /* =====================================
-   SETA
+   SETA SVG
 ===================================== */
 
 .seta {
@@ -409,9 +418,6 @@ body {
     justify-content:
         center;
 
-    position:
-        relative;
-
     flex-shrink:
         0;
 
@@ -424,61 +430,16 @@ body {
 }
 
 
-/* Linha horizontal */
+.seta svg {
 
-.seta-linha {
-
-    position:
-        absolute;
+    display:
+        block;
 
     width:
-        13px;
+        18px;
 
     height:
-        2px;
-
-    background:
-        #ffffff;
-
-    border-radius:
-        2px;
-
-    left:
-        10px;
-
-    top:
-        17px;
-
-}
-
-
-/* Ponta */
-
-.seta-ponta {
-
-    position:
-        absolute;
-
-    width:
-        8px;
-
-    height:
-        8px;
-
-    border-top:
-        2px solid #ffffff;
-
-    border-right:
-        2px solid #ffffff;
-
-    transform:
-        rotate(45deg);
-
-    right:
-        9px;
-
-    top:
-        13px;
+        18px;
 
 }
 
@@ -893,7 +854,7 @@ body {
    RESULTADO
 ===================================== */
 
-.ods {
+.resultado-label {
 
     display:
         inline-block;
@@ -910,25 +871,8 @@ body {
     font-weight:
         bold;
 
-}
-
-
-.pequeno {
-
-    font-size:
-        13px;
-
-    font-weight:
-        bold;
-
     letter-spacing:
         1px;
-
-    color:
-        #6c7c74;
-
-    margin-bottom:
-        8px;
 
 }
 
@@ -1034,6 +978,116 @@ body {
 
     height:
         auto !important;
+
+}
+
+
+/* =====================================
+   MENSAGEM MOTIVACIONAL
+===================================== */
+
+.mensagem-motivacional {
+
+    display:
+        flex;
+
+    align-items:
+        flex-start;
+
+    gap:
+        16px;
+
+    margin:
+        25px 0 30px;
+
+    padding:
+        22px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eff9f3,
+            #ffffff
+        );
+
+    border:
+        1px solid #d4e9dc;
+
+    border-radius:
+        18px;
+
+    box-shadow:
+        0 8px 24px
+        rgba(27,72,53,0.06);
+
+}
+
+
+.motivacional-icone {
+
+    width:
+        40px;
+
+    height:
+        40px;
+
+    flex-shrink:
+        0;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        50%;
+
+    background:
+        #176b4c;
+
+    color:
+        white;
+
+    font-size:
+        19px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.mensagem-motivacional h2 {
+
+    margin:
+        0 0 8px;
+
+    color:
+        #176b4c;
+
+    font-size:
+        20px;
+
+}
+
+
+.mensagem-motivacional p {
+
+    margin:
+        0;
+
+    color:
+        #53645c;
+
+    font-size:
+        15px;
+
+    line-height:
+        1.7;
 
 }
 
@@ -1162,69 +1216,48 @@ body {
     line-height:
         1.7;
 
-    margin-bottom:
-        12px;
-
 }
 
 
 /* =====================================
-   O QUE PODE MELHORAR
+   PONTOS A MELHORAR
 ===================================== */
 
-.item-resultado {
-
-    padding:
-        18px;
+.ponto-melhorar {
 
     background:
-        #f7faf8;
+        linear-gradient(
+            135deg,
+            #fff7f6,
+            #ffffff
+        );
 
     border:
-        1px solid #dce9e1;
-
-    border-radius:
-        14px;
-
-    margin-bottom:
-        12px;
-
-    line-height:
-        1.6;
+        1px solid #f0d7d3;
 
 }
 
 
-.item-resultado strong {
-
-    display:
-        block;
-
-    margin-bottom:
-        7px;
+.ponto-melhorar
+.ponto-forte-titulo {
 
     color:
-        #176b4c;
-
-    font-size:
-        17px;
+        #c0392b;
 
 }
 
 
-.item-resultado span {
+.ponto-melhorar
+.ponto-forte-icone {
 
-    color:
-        #53645c;
-
-    font-size:
-        14px;
+    background:
+        #c0392b;
 
 }
 
 
 /* =====================================
-   CARDS DE DICAS
+   DICAS
 ===================================== */
 
 .dica-card {
@@ -1334,7 +1367,7 @@ body {
 
 
 /* =====================================
-   ESPECIALISTA / FONTE
+   REFERÊNCIA
 ===================================== */
 
 .especialista {
@@ -1421,14 +1454,6 @@ body {
 
     margin-top:
         3px;
-
-}
-
-
-#btnReiniciar {
-
-    margin-top:
-        25px;
 
 }
 
@@ -1616,10 +1641,21 @@ body {
             0.7px;
 
         padding:
-            7px 9px;
+            5px 9px 5px 6px;
 
         margin-bottom:
             16px;
+
+    }
+
+
+    .marca-icone {
+
+        width:
+            24px;
+
+        height:
+            24px;
 
     }
 
@@ -1850,7 +1886,7 @@ body {
     }
 
 
-    /* SETA NO CELULAR */
+    /* SETA */
 
     .seta {
 
@@ -1863,36 +1899,13 @@ body {
     }
 
 
-    .seta-linha {
+    .seta svg {
 
         width:
-            11px;
+            16px;
 
         height:
-            2px;
-
-        left:
-            8px;
-
-        top:
-            15px;
-
-    }
-
-
-    .seta-ponta {
-
-        width:
-            7px;
-
-        height:
-            7px;
-
-        right:
-            7px;
-
-        top:
-            12px;
+            16px;
 
     }
 
@@ -2020,6 +2033,17 @@ body {
 
     /* RESULTADO */
 
+    .resultado-label {
+
+        font-size:
+            11px;
+
+        margin-bottom:
+            14px;
+
+    }
+
+
     #tituloResultado {
 
         font-size:
@@ -2061,6 +2085,8 @@ body {
     }
 
 
+    /* GRÁFICO */
+
     .grafico-container {
 
         width:
@@ -2094,6 +2120,60 @@ body {
     }
 
 
+    /* MENSAGEM MOTIVACIONAL */
+
+    .mensagem-motivacional {
+
+        gap:
+            11px;
+
+        padding:
+            16px;
+
+        margin:
+            20px 0 25px;
+
+        border-radius:
+            15px;
+
+    }
+
+
+    .motivacional-icone {
+
+        width:
+            32px;
+
+        height:
+            32px;
+
+        font-size:
+            15px;
+
+    }
+
+
+    .mensagem-motivacional h2 {
+
+        font-size:
+            18px;
+
+    }
+
+
+    .mensagem-motivacional p {
+
+        font-size:
+            13px;
+
+        line-height:
+            1.6;
+
+    }
+
+
+    /* TÍTULOS */
+
     .secao h2 {
 
         font-size:
@@ -2101,6 +2181,8 @@ body {
 
     }
 
+
+    /* PONTOS FORTES */
 
     .ponto-forte-card {
 
@@ -2132,29 +2214,20 @@ body {
     }
 
 
-    .item-resultado {
+    /* PONTOS A MELHORAR */
+
+    .ponto-melhorar {
 
         padding:
-            14px;
+            16px;
 
-    }
-
-
-    .item-resultado strong {
-
-        font-size:
+        border-radius:
             15px;
 
     }
 
 
-    .item-resultado span {
-
-        font-size:
-            13px;
-
-    }
-
+    /* DICAS */
 
     .dica-card {
 
@@ -2217,6 +2290,14 @@ body {
 
         line-height:
             1.6;
+
+    }
+
+
+    .especialista-profissao {
+
+        font-size:
+            10px;
 
     }
 
